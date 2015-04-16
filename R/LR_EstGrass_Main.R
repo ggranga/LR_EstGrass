@@ -27,8 +27,8 @@ pkg_list <- c("sp","rgdal","raster", "stringr","tcltk","foreach","car","QuantPsy
 for (pkg in pkg_list) {while (!require(pkg,character.only=TRUE)) {install.packages(pkg,dep=TRUE)}}
 
 ## Set preprocessing options
-download_HDF     = FALSE  # TRUE if original MODIS HDF files have to be downloaded; FALSE if not
-preprocess_MODIS = FALSE  # TRUE if preprocessing is required; FALSE if not
+download_HDF     = TRUE  # TRUE if original MODIS HDF files have to be downloaded; FALSE if not
+preprocess_MODIS = TRUE  # TRUE if preprocessing is required; FALSE if not
 
 ## Set global parameters
 years <- c("2012","2013")  # Years of data used in the study
