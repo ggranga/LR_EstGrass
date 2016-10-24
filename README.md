@@ -3,7 +3,7 @@
 ## Supplementary material
 
 Code used to preprocess data and make statistical analyses used in this paper:
-L. Ranghetti, B. Bassano, G. Bogliani, A. Palmonari, A. Formigoni and A. von Hardenberg **2015**. "Estimation of nutritional properties of alpine grassland from MODIS NDVI data". Submitted to *Remote Sensing*.
+L. Ranghetti, B. Bassano, G. Bogliani, A. Palmonari, A. Formigoni, L. Stendardi and A. von Hardenberg (2016). «MODIS time series contribution for the estimation of nutritional properties of alpine grassland». _European Journal of Remote Sensing_, 49: 691-718, doi: [10.5721/EuJRS20164936](http://dx.doi.org/10.5721/EuJRS20164936).
 
 The code is self-running. The following sources files are required:
 - R source files (see the list at the end of this main script): they are all present in this repository;
